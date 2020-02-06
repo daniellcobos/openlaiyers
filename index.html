@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html></html>
+  <head>
+    <meta charset="utf-8">
+    <title>Discount Mapas Bogota</title>
+    <style>
+      #map {
+        width: 1000px;
+        height: 600px;
+      }
+    </style>
+      <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <header>
+      <h1> Bienvenido a Pseudomapas Bogota...creo</h1>
+    </header>
+    <div class="container">
+        <div id="map"></div>
+        <div class="relleno" id="relleno"> 
+            <ul id="opciones">
+
+                <li><button id="delete1"> Esconda el layer de ARCGIS</button></li>
+                  <li><button id="hidebarrios"> Esconda los barrios</button></li>
+                  <li><button id="nomcol"> Ver nombre de Colegios</button></li>
+            </ul>
+             <form id="enviarbarr">
+               Busque un barrio: <br>
+               <input type="text" name="nombarrio" id="barbusc">
+               <input type="submit">
+             </form>
+        </div>
+     
+    </div>
+    <div>
+      
+    </div>
+    
+    <div class="mid">
+        <h1>Barrios Seleccionados:</h1>
+      <ul id="listbarr"></ul>
+    </div>
+    
+  </body>
+  
+</html>
+<script src="./index.js"></script>
